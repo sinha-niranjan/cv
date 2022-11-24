@@ -1,0 +1,55 @@
+/**** TAG SELECTORS ******/
+body {
+    background-color: #8df0f4;
+}
+h1 {
+    color : rgb(19, 60, 77);
+}
+h3 {
+    color : rgb(15, 104, 15);
+}
+
+hr {
+    background-color: rgb(254, 251, 251);
+     
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    height: 0;
+    width :10%
+}
+img {
+    height: 110px;
+    width: 90px;
+}
+
+/********* ID SELECTOR   **********/
+#first   {
+    color: red;
+     
+}
+#first:hover 
+{
+    background-color: gold;
+}
+#second {
+    color: black;
+}
+
+/************* CLASS SELECTOR  ************/
+.first {
+    color : violet;
+}
+.second {
+    color : yellow;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+
+/******** two id name cannot be same  ***********/
+/******** two or more than have same class name  **********/
+/******** in one tag we can use one or more class  **********/
